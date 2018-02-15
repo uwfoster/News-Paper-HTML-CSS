@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework Review from 1-25-18</title>
+	<meta chrset="UTF-8">
+	<style>
+
+		#container {
+		width: 960px;
+		background-color: #B0B0B0;
+		margin: 15px;
+		}
+
+		.top-bar {
+			height: 75px;
+			background-color: #ff11ff;
+			margin-bottom: 50px;
+		}
+
+
+		#brand img {
+			border-radius: 50%;
+			
+		}
+
+
+		#nav {
+			text-align: center;
+			line-height: 75px;
+
+		}
+
+		#nav a {
+			padding-right: 25px;
+		}
+
+		#float {
+			margin-bottom: 25px;
+		}
+
+		#float::after {
+			content: "";
+			clear: both;
+			display: tabel;
+		}
+
+
+		.class {
+			float: left;
+		}
+
+		#sidebar {
+			width: 25%;
+			text-align: center;
+		}
+
+		#content {
+			width: 75%;
+			padding: 10px;
+		}
+
+		
+		#content p {
+			margin: 0;
+		}
+
+		#content p img {
+			float: left;
+			margin-right: 25px;
+			margin-bottom: 25px;
+		}
+
+		#photo {
+			height: 300px;
+			background-image: url("http://www.loremflickr.com/960/300");
+		}
+
+
+		#photo h2 {
+			position: absolute;
+			bottom: 5px;
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+	<div id="container">
+
+		<div class="top-bar" id="brand"></div>
+			<img src="http://www.loremflickr.com/75/75">
+		<div class="top-bar" id="nav"></div>
+
+		<div class="top-bar" id="nav">
+			<a href="#">Link 1</a>
+			<a href="#">Link 1</a>
+			<a href="#">Link 1</a>
+			<a href="#">Link 1</a>
+			<a href="#">Link 1</a>
+			<a href="#">Link 1</a>
+		<!-- End of nav -->
+
+		<div id="float">
+			<div class="column" id="sidebar">
+				<ul>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+					<li>Item Here</li>
+			</div>
+			<div class="column" id="content">
+
+				<p>
+					<img src="http://www.loremflickr.com/200/200">
+					Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+					
+				</p>
+				
+				
+			</div>
+
+		</div> <!-- end of id float -->
+
+		<div id="photo">
+			<h2>My fancy-schmancy photo</h2>	
+		</div>
+		
+
+	</div> <!-- End of of container -->
+</body>
+</html>
+
+<!-- http://www.loremflickr.com/75/75 and http://www.lorempixel.com/75/75-->

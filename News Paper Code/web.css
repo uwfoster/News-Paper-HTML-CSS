@@ -1,0 +1,36 @@
+#nav {
+		background-color: blue;
+}
+#nav p {
+	display: inline-block;
+	margin-right: 5%;
+}
+
+#sndimg {
+	
+	height: 50px;
+	width: 50px;
+}
+
+#title {
+		display: inline-block;
+}
+#title img {
+	height: 300px;
+	width: 100%;
+}
+
+
+#container {
+
+}
+
+h1  {
+		text-align: center;
+		margin-right: 5%;
+		background-color: lightblue;
+}
+p  {
+		text-align: center;
+		margin-right: 5%;
+}
